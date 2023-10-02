@@ -13,7 +13,7 @@
                 <GradientStop Color="#FF801D1D" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBox x:Name="caja_TextBox" HorizontalAlignment="Left" Margin="46,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="702" Height="315" TextChanged="Caja_TextBox_TextChanged" UndoLimit="140"/>
+        <TextBox x:Name="caja_TextBox" HorizontalAlignment="Left" Margin="46,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="702" Height="315" TextChanged="Caja_TextBox_TextChanged" UndoLimit="140" AcceptsReturn="True"/>
         <Label x:Name="caracteres_Label" Content="0/140" HorizontalAlignment="Left" Margin="670,369,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" Width="78" FontWeight="Bold"/>
 
     </Grid>
